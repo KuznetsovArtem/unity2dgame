@@ -1,0 +1,8 @@
+# Unity
+Temp/
+Obj/
+UnityGenerated/
+Library/
+
+# IDE
+.idea/
