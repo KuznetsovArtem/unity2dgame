@@ -15,6 +15,17 @@ function Update () {
 	movement = new Vector2(
 		speed.x * inputX,
 		speed.y * inputY);
+		
+	// Shooting
+	var shoot = Input.GetButtonDown("Fire1")
+		|| Input.GetButtonDown("Fire2");
+	
+	if (shoot) {
+		var weapon : WeaponScript = GetComponent(WeaponScript);
+		if (weapon != null) {
+			weapon.Attack(false);
+		}
+	}
 }
 
 function FixedUpdate() {
