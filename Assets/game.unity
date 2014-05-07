@@ -167,6 +167,8 @@ GameObject:
   - 114: {fileID: 266397419}
   - 61: {fileID: 266397420}
   - 114: {fileID: 266397421}
+  - 114: {fileID: 266397423}
+  - 114: {fileID: 266397422}
   m_Layer: 0
   m_Name: Poulpi
   m_TagString: Untagged
@@ -279,6 +281,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 1
   isEnemy: 1
+--- !u!114 &266397422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400008, guid: 6ba3f52799cdad54bb8d0aab9ecf1a8d,
+    type: 2}
+  m_PrefabInternal: {fileID: 832191873}
+  m_GameObject: {fileID: 266397414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd1a383329bf70d47b5a15b923e9f1fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &266397423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400006, guid: 6ba3f52799cdad54bb8d0aab9ecf1a8d,
+    type: 2}
+  m_PrefabInternal: {fileID: 832191873}
+  m_GameObject: {fileID: 266397414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2200352e3162dbc4c8171412e6c0ab47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shotPrefab: {fileID: 400000, guid: 91ebf0f3e5682aa46bdbb12103600655, type: 2}
+  shootingRate: .25
+  CanAttack: 1
 --- !u!1 &427137842
 GameObject:
   m_ObjectHideFlags: 0
