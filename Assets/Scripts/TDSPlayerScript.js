@@ -14,13 +14,14 @@ function Start () {
 
 function Update () {
 
+	//weapon.animation.Play("attack");
 	updateCam();
 	// Shooting
 	var shoot = Input.GetButtonDown("Fire1")
 		|| Input.GetButtonDown("Fire2");
 	
 	if (shoot) {
-		weapon.animation.Play("attack");
+		//weapon.animation.Play("attack");
 		shootingCount++;
 	}
 }

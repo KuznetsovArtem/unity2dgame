@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\MoveScript.js" />
      <Compile Include="Assets\Scripts\PlayerScript.js" />
      <Compile Include="Assets\Scripts\ShotScript.js" />
+     <Compile Include="Assets\Scripts\TDSMelee.js" />
      <Compile Include="Assets\Scripts\TDSPlayerScript.js" />
      <Compile Include="Assets\Scripts\WeaponScript.js" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />

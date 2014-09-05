@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: a50d0df50c24dc9418cddcbda21ca565
+guid: eb689e9946e80934786ba8c1661f96c2
 TextureImporter:
   fileIDToRecycleName:
-    21300000: ground
+    21300000: brick
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -16,8 +16,8 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .202999994
-    normalMapFilter: 1
+    heightScale: .25
+    normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
@@ -25,20 +25,20 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
-    filterMode: 1
-    aniso: 1
+    filterMode: -1
+    aniso: -1
     mipBias: -1
-    wrapMode: 1
+    wrapMode: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 10
+  spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
