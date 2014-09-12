@@ -1,8 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TDSPlayerScript.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TDSMelee.js">
     <Files>
       <File FileName="Assets\Scripts\TDSPlayerScript.js" Line="24" Column="3" />
+      <File FileName="Assets\Scripts\TDSMelee.js" Line="21" Column="4" />
+      <File FileName="Assets\Scripts\TDSEnemy.js" Line="6" Column="8" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
