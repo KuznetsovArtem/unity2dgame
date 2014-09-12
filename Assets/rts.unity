@@ -1986,6 +1986,7 @@ GameObject:
   - 33: {fileID: 869904403}
   - 135: {fileID: 869904402}
   - 23: {fileID: 869904401}
+  - 114: {fileID: 869904398}
   m_Layer: 0
   m_Name: enemy
   m_TagString: Player
@@ -2006,6 +2007,18 @@ Transform:
   - {fileID: 542780258}
   m_Father: {fileID: 0}
   m_RootOrder: 8
+--- !u!114 &869904398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 869904396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ad001a19e299ab4eb7561a811bcd960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
 --- !u!23 &869904401
 Renderer:
   m_ObjectHideFlags: 0
@@ -2298,7 +2311,8 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 7075f59960fe6474baabbc89aae6a02f, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 39e8d1048b780cd49a87a9733f7d82d4, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 39e8d1048b780cd49a87a9733f7d82d4, type: 2}
   m_RootGameObject: {fileID: 2081341673}
   m_IsPrefabParent: 0
@@ -4010,6 +4024,7 @@ MonoBehaviour:
   demmage: 50
   distance: 0
   maxDistance: 1.5
+  weapon: {fileID: 2081341677}
   shootingCount: 0
 --- !u!1 &1914173803
 GameObject:
@@ -4284,7 +4299,7 @@ GameObject:
   - 4: {fileID: 2081341677}
   - 33: {fileID: 2081341676}
   - 23: {fileID: 2081341674}
-  - 95: {fileID: 2081341675}
+  - 111: {fileID: 2081341675}
   m_Layer: 0
   m_Name: Axe
   m_TagString: Untagged
@@ -4313,22 +4328,20 @@ Renderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!95 &2081341675
-Animator:
-  serializedVersion: 3
+--- !u!111 &2081341675
+Animation:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 39e8d1048b780cd49a87a9733f7d82d4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1120336229}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2081341673}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7075f59960fe6474baabbc89aae6a02f, type: 2}
-  m_CullingMode: 1
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 91de08f2a1165cb449124ef1dec2b400, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!33 &2081341676
 MeshFilter:
   m_ObjectHideFlags: 0
